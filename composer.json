@@ -1,0 +1,19 @@
+{
+    "name": "alex/mediaplanet-client-logos",
+    "type": "plugin",
+    "authors": [
+        {
+            "name": "Alexander Akimchenko",
+            "email": "motofeel@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MediaplanetClientLogos\\": "src/"
+        },
+        "classmap": ["src/"]
+    }
+}
